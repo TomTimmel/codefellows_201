@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Sports Questionnaire </title>
+</head>
+
+<body>
+  <h1> Sport Questionnaire </h1>
+  <h3> Thank you for asking the following questions! </h3>
+  <main>
+      <ul>
+      <li> What's your name? </li>
+      <li> What's your favorite sport? </li>
+      <li> Which team do you root for? </li>
+      <li> What city do they come from? </li>
+    </ul>
+  </main>
+  <script>
+
+    var name = prompt('What is your name?')
+    alert('Hello ' + name);
+    var sport = prompt('What is your favorite sport?')
+    alert('Hello ' + name + ', I see you like ' + sport);
+    var team = prompt('Which team do you root for?');
+    alert('Hello ' + name + ' I see you like ' + sport + ', and your favorite team is the ' + team);
+    var city = prompt('What city do they come from?');
+    alert('Hello ' + name + ' I see you like ' + sport + ', and your favorite team is the ' + team + ' who play in ' + city);
+
+    console.log('The user is named ' + name);
+    console.log(name + ' likes ' + sport);
+    console.log('The team ' + name + ' likes is the ' + team);
+    console.log(team + ' plays in ' + city);
+  </script>
+</body>
+</html>
